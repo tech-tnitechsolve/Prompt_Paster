@@ -46,8 +46,19 @@ activity_log.json
 *.sqlite3
 build/
 dist/
+output/
+release/
 *.spec
 *.exe
+*.msi
+*.ico
+*.res
+installer/
+setup/
+temp/
+# Inno Setup files
+*.iss
+*.~is
 
 # Testing
 .coverage

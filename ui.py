@@ -240,6 +240,11 @@ class MainWindow(QMainWindow):
         self.setWindowTitle(f"Prompt Paster v9.2")
         self.setGeometry(100, 100, 1000, 750)
         
+        # Sửa lại vị trí logo
+        icon_path = os.path.join("logos", "logo.ico")
+        if os.path.exists(icon_path):
+            self.setWindowIcon(QIcon(icon_path))
+        
         # Timer for auto-saving prompts
         self.auto_save_timer = QTimer(self)
         self.auto_save_timer.setSingleShot(True)

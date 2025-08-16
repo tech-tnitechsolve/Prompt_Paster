@@ -37,10 +37,14 @@ def main():
                     required_packages.append(pkg)
     except FileNotFoundError:
         # Danh sách dự phòng nếu không có file requirements.txt
+        print("!!! Không tìm thấy file requirements.txt. Sử dụng danh sách dự phòng. !!!")
         required_packages = [
             "PyQt6",
             "pynput",
-            "watchdog"  # Thêm thư viện để theo dõi file
+            "Pillow",
+            "six",
+            "pyinstaller",
+            "watchdog"
         ]
 
     if not required_packages:
