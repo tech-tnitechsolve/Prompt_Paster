@@ -1,7 +1,5 @@
 # Prompt Paster v1.0.0
 
-![Logo][(https://raw.githubusercontent.com/tech-tnitechsolve/Prompt_Paster/main/logos/logo.png)](https://github.com/tech-tnitechsolve/Prompt_Paster/logos/logo.png)
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
