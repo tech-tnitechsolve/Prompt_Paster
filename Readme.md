@@ -24,9 +24,7 @@
 
 ### 🎬 Xem trước (Demo)
 
-*(Gợi ý: Bạn có thể tạo một ảnh GIF minh họa cách hoạt động của ứng dụng và đặt vào đây để người dùng dễ hình dung)*
-
-![Demo GIF Placeholder](https://placehold.co/800x400/f0f0f0/333333?text=H%C3%ACnh+minh+h%E1%BB%8Da+ho%E1%BA%A1t+%C4%91%E1%BB%99ng)
+![Giao diện chính của Prompt Paster](https://raw.githubusercontent.com/tech-tnitechsolve/Prompt_Paster/main/assets/image_068089.png)
 
 ### 💾 Cài đặt
 
@@ -96,9 +94,7 @@ Dự án này được cấp phép dưới **Giấy phép MIT**. Xem chi tiết 
 
 ### 🎬 Demo
 
-*(Suggestion: You can create a GIF demonstrating the app's workflow and place it here for users to see.)*
-
-![Demo GIF Placeholder](https://placehold.co/800x400/f0f0f0/333333?text=App+Workflow+Demo)
+![Prompt Paster Main Interface](https://raw.githubusercontent.com/tech-tnitechsolve/Prompt_Paster/main/assets/image_068089.png)
 
 ### 💾 Installation
 
