@@ -4,6 +4,21 @@ __pycache__/
 *$py.class
 *.so
 .Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 .env
 .venv
 env/
@@ -23,8 +38,31 @@ pip-delete-this-directory.txt
 
 # Project specific
 PromptPaster_Data/
+*/PromptPaster_Data/
 activity_log.json
+*.log
+*.db
+*.sqlite
+*.sqlite3
+build/
+dist/
+*.spec
+*.exe
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
 
 # OS specific
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+Desktop.ini
