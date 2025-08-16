@@ -24,7 +24,8 @@
 
 ### 🎬 Xem trước (Demo)
 
-![Giao diện chính của Prompt Paster](https://raw.githubusercontent.com/tech-tnitechsolve/Prompt_Paster/main/assets/image_068089.png)
+![Giao diện chính của Prompt Paster]<img width="1920" height="1041" alt="image" src="https://github.com/user-attachments/assets/5e820d67-0d26-44f8-a2f0-13e0379dc061" />
+
 
 ### 💾 Cài đặt
 
@@ -94,7 +95,8 @@ Dự án này được cấp phép dưới **Giấy phép MIT**. Xem chi tiết 
 
 ### 🎬 Demo
 
-![Prompt Paster Main Interface](https://raw.githubusercontent.com/tech-tnitechsolve/Prompt_Paster/main/assets/image_068089.png)
+![Prompt Paster Main Interface]<img width="1920" height="1041" alt="image" src="https://github.com/user-attachments/assets/cbc9f913-9f27-4b09-a017-d0f2902b7275" />
+
 
 ### 💾 Installation
 
