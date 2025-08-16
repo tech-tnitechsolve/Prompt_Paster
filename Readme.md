@@ -1,107 +1,154 @@
-# Prompt Paster v1.0
+# Prompt Paster v1.0.0
 
-![Prompt Paster Logo](docs/images/logo.png)
+![Logo](https://raw.githubusercontent.com/tech-tnitechsolve/Prompt_Paster/main/logos/logo.png)
 
-Ứng dụng hỗ trợ paste prompt tự động cho Midjourney/ChatGPT và các công cụ AI khác, giúp tối ưu hóa quy trình làm việc với AI.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
+[![Release](https://img.shields.io/github/v/release/tech-tnitechsolve/Prompt_Paster)](https://github.com/tech-tnitechsolve/Prompt_Paster/releases)
 
-## Tải về và Cài đặt
+**[English](#english-version) | [Tiếng Việt](#tiếng-việt)**
 
-### Phiên bản thực thi (Khuyến nghị)
+---
 
-1. Tải file cài đặt từ [Releases](https://github.com/tech-tnitechsolve/Prompt_Paster/releases) mới nhất
-2. Chạy file PromptPaster_Setup.exe
-3. Làm theo hướng dẫn cài đặt
+## Tiếng Việt
 
-### Cài đặt từ mã nguồn (Cho nhà phát triển)
+**Prompt Paster** là ứng dụng dành cho Windows giúp tự động hóa việc sao chép và dán (paste) các câu lệnh (prompt) vào các công cụ AI như Midjourney, ChatGPT, Stable Diffusion, và nhiều hơn nữa. Tối ưu hóa quy trình làm việc của bạn, tiết kiệm thời gian và tăng năng suất.
 
-#### Yêu cầu hệ thống
-- Python 3.8 trở lên
-- Windows 7/10/11
+### ✨ Tính năng nổi bật
 
-1. Clone repository:
-```bash
-git clone https://github.com/tech-tnitechsolve/Prompt_Paster.git
-cd Prompt_Paster
-```
+- **🚀 Paste tự động**: Sử dụng hotkey tùy chỉnh (mặc định `Ctrl+B`) để tự động dán prompt tiếp theo trong danh sách.
+- **📂 Quản lý thông minh**: Tổ chức các prompt của bạn vào các thư mục và danh sách riêng biệt.
+- **📊 Theo dõi tiến độ**: Tự động lưu và theo dõi prompt cuối cùng bạn đã sử dụng trong mỗi danh sách.
+- **📈 Thống kê chi tiết**: Dashboard cung cấp lịch sử hoạt động và số liệu thống kê về việc sử dụng prompt.
+- **🔄 Import/Export dễ dàng**: Dễ dàng nhập và xuất danh sách prompt qua file CSV.
+- **⚙️ Tùy chỉnh linh hoạt**: Thay đổi hotkey và thư mục lưu trữ dữ liệu một cách đơn giản.
 
-2. Tạo và kích hoạt môi trường ảo:
-```bash
-python -m venv .venv
-.\.venv\Scripts\activate
-```
+### 🎬 Xem trước (Demo)
 
-3. Cài đặt các thư viện cần thiết:
-```bash
-python install_requirements.py
-```
+*(Gợi ý: Bạn có thể tạo một ảnh GIF minh họa cách hoạt động của ứng dụng và đặt vào đây để người dùng dễ hình dung)*
 
-4. Chạy ứng dụng:
-```bash
-python main.py
-```
+![Demo GIF Placeholder](https://placehold.co/800x400/f0f0f0/333333?text=H%C3%ACnh+minh+h%E1%BB%8Da+ho%E1%BA%A1t+%C4%91%E1%BB%99ng)
 
-## Tính năng chính
+### 💾 Cài đặt
 
-### 1. Quản lý Prompt
-- Tổ chức prompt theo thư mục và danh sách
-- Hỗ trợ import/export CSV
-- Tự động lưu tiến trình paste
+#### Dành cho người dùng (Khuyến nghị)
 
-### 2. Paste Tự động
-- Hotkey tùy chỉnh (mặc định Ctrl+B)
-- Hỗ trợ paste nhanh với shortcut
-- Tự động chuyển prompt tiếp theo
+1.  Truy cập trang [**Releases**](https://github.com/tech-tnitechsolve/Prompt_Paster/releases) mới nhất.
+2.  Tải về tệp `PromptPaster_Setup.exe`.
+3.  Chạy file cài đặt và làm theo các bước hướng dẫn.
 
-### 3. Quản lý File Ảnh
-- Theo dõi thư mục Downloads
-- Tự động di chuyển ảnh đến thư mục lưu trữ
-- Phân loại và tổ chức file
+#### Dành cho nhà phát triển
 
-### 4. Thống kê và Báo cáo
-- Dashboard theo dõi hoạt động
-- Thống kê số lượng prompt đã sử dụng
-- Lịch sử hoạt động chi tiết
+1.  Clone repository về máy:
+    ```bash
+    git clone [https://github.com/tech-tnitechsolve/Prompt_Paster.git](https://github.com/tech-tnitechsolve/Prompt_Paster.git)
+    cd Prompt_Paster
+    ```
 
-## Cấu hình và Tùy chỉnh
+2.  Tạo và kích hoạt môi trường ảo:
+    ```bash
+    python -m venv .venv
+    .\.venv\Scripts\activate
+    ```
 
-### Thư mục dữ liệu
-- Mặc định: `~/PromptPaster_Data`
-- Có thể thay đổi trong phần Cài đặt
+3.  Cài đặt các thư viện cần thiết:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-### Hotkey
-- Mặc định: `Ctrl+B`
-- Tùy chỉnh trong phần Cài đặt
-- Hỗ trợ các tổ hợp phím phổ biến
+4.  Chạy ứng dụng:
+    ```bash
+    python main.py
+    ```
 
-### Tự động hóa
-- Theo dõi thư mục Downloads
-- Tự động di chuyển file ảnh
-- Cấu hình qua giao diện
+### 🤝 Đóng góp
 
-## Đóng góp
+Chúng tôi luôn chào đón mọi sự đóng góp! Nếu bạn có ý tưởng để cải thiện Prompt Paster, vui lòng:
 
-Chúng tôi luôn chào đón mọi đóng góp! Nếu bạn muốn cải thiện Prompt Paster:
+1.  **Fork** repository này.
+2.  Tạo một branch mới (`git checkout -b feature/NewFeature`).
+3.  Commit các thay đổi của bạn (`git commit -m 'Add some NewFeature'`).
+4.  Push lên branch (`git push origin feature/NewFeature`).
+5.  Mở một **Pull Request**.
 
-1. Fork repository
-2. Tạo branch mới (`git checkout -b feature/AmazingFeature`)
-3. Commit thay đổi (`git commit -m 'Add some AmazingFeature'`)
-4. Push lên branch (`git push origin feature/AmazingFeature`)
-5. Tạo Pull Request
+### 📜 Giấy phép
 
-## Giấy phép
+Dự án này được cấp phép dưới **Giấy phép MIT**. Xem chi tiết tại file [LICENSE](LICENSE).
 
-Dự án này được phát hành dưới giấy phép MIT. Xem file [LICENSE](LICENSE) để biết thêm chi tiết.
+### 📧 Liên hệ
 
-## Hỗ trợ
+- **Tác giả**: TNI Tech Solutions - [GitHub](https://github.com/tech-tnitechsolve)
+- **Hỗ trợ**: Nếu bạn gặp vấn đề, vui lòng tạo một [Issue](https://github.com/tech-tnitechsolve/Prompt_Paster/issues) hoặc liên hệ qua email `support@tnitechsolve.com`.
 
-Nếu bạn gặp vấn đề hoặc có câu hỏi:
-- Tạo issue trên [GitHub](https://github.com/tech-tnitechsolve/Prompt_Paster/issues)
-- Email: support@tnitechsolve.com
+---
 
-## Tác giả
+## English Version
 
-**TNI Tech Solutions** - [GitHub](https://github.com/tech-tnitechsolve)
+**Prompt Paster** is a Windows application designed to automate the process of copying and pasting prompts into AI tools like Midjourney, ChatGPT, Stable Diffusion, and more. Streamline your workflow, save time, and boost your productivity.
 
-## Ghi nhận đóng góp
+### ✨ Key Features
 
-Cảm ơn tất cả các contributor đã giúp phát triển dự án này!
+- **🚀 Auto Paste**: Use a customizable hotkey (default `Ctrl+B`) to automatically paste the next prompt from your list.
+- **📂 Smart Management**: Organize your prompts into separate folders and lists.
+- **📊 Progress Tracking**: Automatically saves and tracks the last used prompt in each list.
+- **📈 Detailed Analytics**: A dashboard provides an activity log and statistics on your prompt usage.
+- **🔄 Easy Import/Export**: Effortlessly import and export prompt lists via CSV files.
+- **⚙️ Flexible Configuration**: Easily change the hotkey and data storage directory.
+
+### 🎬 Demo
+
+*(Suggestion: You can create a GIF demonstrating the app's workflow and place it here for users to see.)*
+
+![Demo GIF Placeholder](https://placehold.co/800x400/f0f0f0/333333?text=App+Workflow+Demo)
+
+### 💾 Installation
+
+#### For Users (Recommended)
+
+1.  Go to the latest [**Releases**](https://github.com/tech-tnitechsolve/Prompt_Paster/releases) page.
+2.  Download the `PromptPaster_Setup.exe` file.
+3.  Run the installer and follow the on-screen instructions.
+
+#### For Developers
+
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/tech-tnitechsolve/Prompt_Paster.git](https://github.com/tech-tnitechsolve/Prompt_Paster.git)
+    cd Prompt_Paster
+    ```
+
+2.  Create and activate a virtual environment:
+    ```bash
+    python -m venv .venv
+    .\.venv\Scripts\activate
+    ```
+
+3.  Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  Run the application:
+    ```bash
+    python main.py
+    ```
+
+### 🤝 Contributing
+
+Contributions are always welcome! If you have ideas to improve Prompt Paster, please:
+
+1.  **Fork** this repository.
+2.  Create a new branch (`git checkout -b feature/NewFeature`).
+3.  Commit your changes (`git commit -m 'Add some NewFeature'`).
+4.  Push to the branch (`git push origin feature/NewFeature`).
+5.  Open a **Pull Request**.
+
+### 📜 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+### 📧 Contact
+
+- **Author**: TNI Tech Solutions - [GitHub](https://github.com/tech-tnitechsolve)
+- **Support**: If you encounter any issues, please create an [Issue](https://github.com/tech-tnitechsolve/Prompt_Paster/issues) or contact us at `support@tnitechsolve.com`.
