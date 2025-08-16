@@ -8,7 +8,7 @@ from PyQt6.QtWidgets import (
     QPushButton, QTreeView, QLabel, QFileDialog, QLineEdit,
     QMessageBox, QInputDialog, QFrame, QDialog,
     QDialogButtonBox, QSplitter, QPlainTextEdit, QTableWidget, QTableWidgetItem,
-    QHeaderView, QStyle, QTextEdit, QProgressBar
+    QHeaderView, QStyle, QTextEdit, QProgressBar, QCheckBox
 )
 from PyQt6.QtGui import (
     QIcon, QCloseEvent, QStandardItemModel, QStandardItem, 

@@ -14,10 +14,15 @@ from pynput.keyboard import Controller, Key
 
 class CoreLogic(QObject):
     """
-    Cải tiến v9.1:
-    - Loại bỏ hoàn toàn tính năng tự động di chuyển file.
-    - Đặt hotkey mặc định là ctrl+b.
-    - Tinh giản logic và các cài đặt không cần thiết.
+    Prompt Paster v1.0
+    Developed by TNI Tech Solutions
+    Email: support@tnitechsolve.com
+
+    Features:
+    - Quản lý và tổ chức prompt theo thư mục
+    - Paste tự động với hotkey
+    - Theo dõi và di chuyển file tự động
+    - Dashboard thống kê hoạt động
     """
     data_changed = pyqtSignal()
     stats_updated = pyqtSignal(dict)
